@@ -13,7 +13,11 @@
         align-items: flex-end;
 
         &--state{
-            margin-right: 12px;
+            
+            img{
+                margin-right: 12px; 
+            }
+            
         }
 
         &--ebac{
