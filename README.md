@@ -20,7 +20,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/6ormhGEXswB3jVV5Jwv8DM/AcessaBR-(Copy)?node-id=12%3A4). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/FPsWQUxZ5joUoJakoTmyd8/AcessaBR-(Copy)). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ## 💻 Projeto
 
