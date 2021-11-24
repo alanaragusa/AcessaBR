@@ -10,8 +10,10 @@ function CuratorItem() {
                 <img src={curatorPhoto} alt="Foto da curadora Alana Ragusa" />
             </div>
             <div className="curator__details">
-                <h3>Alana Ragusa</h3>
-                <h6>Curadoria</h6>
+                <div>
+                    <h3>Alana Ragusa</h3>
+                    <h6>Curadoria</h6>
+                </div>
                 <p>Desenvolvedora web estudando ReactJS na React Dev Week da E.B.A.C. Escola Britânica de Artes Criativas e Tecnologia.</p>
             </div>
         </div>    
