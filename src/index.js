@@ -18,8 +18,8 @@ ReactDOM.render(
       <Home city={CONFIG.city} />
       
       <Curator />
-      <Footer />
     </div>
+    <Footer />
   </div>
   ,
   document.getElementById('root')

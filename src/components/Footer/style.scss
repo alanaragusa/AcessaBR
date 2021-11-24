@@ -1,0 +1,20 @@
+.footer{
+
+    &__component{
+
+    }
+    
+    &__section{
+
+        &--first{
+            background-color: var(--lightGreen);
+            color: var(--black);
+        }
+
+        &--second{
+            background-color: var(--green);
+            color: var(--white);
+        }
+
+    }
+}
