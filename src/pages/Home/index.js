@@ -14,7 +14,6 @@ const Home = () => {
                     Nossa missão é facilitar o encontro entre lugares inclusivos e pessoas que buscam alternativas culturais para sair de casa, com a mobilidade que todo cidadão precisa. 
                 </p>
                 <p className="home__text">
-                    Nossa missão é facilitar o encontro
                     Checamos 10 itens essenciais de acessibilidade para pessoas com deficiência em diversos pontos da cidade. 
                 </p>
             </div>

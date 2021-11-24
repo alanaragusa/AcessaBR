@@ -23,18 +23,23 @@ body {
 .main{
 
     &__wrapper{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
     }
 
 
     &__container{
-    width: 100%;
-    max-width: 120rem;
-    margin: 0 auto;
+        width: 100%;
+        max-width: 120rem;
+        margin: 0 auto;
     }
 
  }
+
+img{
+    max-width: 100%;
+    height: auto;
+}
