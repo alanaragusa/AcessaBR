@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './styles.scss';
 import imageDestack from '../../images/imagem-destaque.png';
 import Pills from '../../components/Pills';
@@ -16,7 +16,7 @@ const PLACES = [
 ]
 
 const Home = () => {
-    const [selectedPill, setSelectedPill] = useState()
+    const [selectedPill, setSelectedPill] = useState('')
     
     return (
         <main id="main-content" className="home__container">
