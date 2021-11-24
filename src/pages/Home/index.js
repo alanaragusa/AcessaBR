@@ -16,6 +16,9 @@ const Home = () => {
                 <p className="home__text">
                     Checamos 10 itens essenciais de acessibilidade para pessoas com deficiência em diversos pontos da cidade. 
                 </p>
+                <div className="home__pills">
+
+                </div>
             </div>
             <div className="home__col">
                 <div className="home__image home__image--destack">
