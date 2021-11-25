@@ -4,7 +4,7 @@
     max-width: 222px;
 
     &__container{
-
+        margin: 1.2rem;
     }
 
     &__image{
@@ -41,8 +41,11 @@
         list-style-type: none;
 
         &__item{
+            align-items: center;
             background-color: var(--blue);
             border-radius: 5px;
+            display: flex;
+            justify-content: center;
             height: 30px;
             width: 30px;
 

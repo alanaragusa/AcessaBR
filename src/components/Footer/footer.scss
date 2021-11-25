@@ -43,4 +43,12 @@
         }
 
     }
+
+    .button{
+        background-color: var(--lightBlue);
+        border-radius: 0.5rem;
+        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+        padding: 1rem;
+        align-self: flex-end;
+    }
 }

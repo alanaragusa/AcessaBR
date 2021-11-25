@@ -73,8 +73,8 @@ const Card = () => {
                     <li className="card__facilities__item">
                         <img 
                             src={iconPorta}
-                            alt="Portas largas"
-                            title="Portas largas"
+                            alt="Portas de acesso largas"
+                            title="Portas de acesso largas"
                         />
                     </li>
                     <li className="card__facilities__item">
