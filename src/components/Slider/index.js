@@ -3,7 +3,9 @@ import SwiperCore, {Pagination} from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Card from '../Card';
 
-SwiperCore.use(Pagination)
+import 'swiper/swiper-bundle.css';
+
+SwiperCore.use([Pagination])
 
 function Slider() {
     return(

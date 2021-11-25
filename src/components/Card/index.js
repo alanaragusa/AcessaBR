@@ -12,7 +12,7 @@ const Card = () => {
                 <h3>Nome do local</h3>
                 <ul className="card__facilities">
                     <li className="card__facilities__item"></li>
-                    <li className="card__facilities__item"></li>
+                    <li className="card__facilities__item card__facilities__item--unchecked"></li>
                     <li className="card__facilities__item"></li>
                     <li className="card__facilities__item"></li>
                     <li className="card__facilities__item"></li>
