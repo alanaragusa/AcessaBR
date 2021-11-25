@@ -20,6 +20,9 @@ function Footer() {
                         
                         <small>Projetado por <a href="https://github.com/cavalcantemmarcelo" target="_blank"  rel="noreferrer">Marcelo Cavalcante</a> e <a href="https://github.com/mja-maia"  target="_blank" rel="noreferrer">Miguel Maia</a>, desenvolvido por Aluno EBAC. </small>
                     </p>
+                    <a href="#top" className="button">
+                        <img src={iconTop} alt="Voltar ao topo" />
+                    </a>
                 </div>
             </div>
         </footer>
