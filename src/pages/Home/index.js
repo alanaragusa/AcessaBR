@@ -1,4 +1,5 @@
-import React, {useState, useParams, useContext, useEffect} from 'react';
+import { useState, useContext, useEffect } from 'react';
+import { useParams } from 'react-router-dom';
 import './styles.scss';
 import imageDestack from '../../images/imagem-destaque.png';
 import Pills from '../../components/Pills';
@@ -17,15 +18,15 @@ const PLACES = [
 ]
 
 const Home = () => {
-    const { city , state } = useParams()
-    const [ selectedPill, setSelectedPill ] = useState('')
+    const { city , state } = useParams();
+    const [ selectedPill, setSelectedPill ] = useState('');
 
     const { setCity, setState } = useContext(LocationContext)
     
     useEffect(() => {
-        setCity(city)
-        setState(state)
-    }, [city, state])
+        setCity(city);
+        setState(state);
+    }, [city, setCity, state, setState]);
 
     return (
         <main id="main-content" className="home__container">
