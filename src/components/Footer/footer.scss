@@ -1,3 +1,5 @@
+@import '../../styles/_responsive';
+
 .footer{
 
     width: 100%;
@@ -51,4 +53,12 @@
         padding: 1rem;
         align-self: flex-end;
     }
+
+    @media (max-width: mobieSmall){
+
+        p{
+            font-size: 1.5rem !important;
+        }    
+    }
+
 }
