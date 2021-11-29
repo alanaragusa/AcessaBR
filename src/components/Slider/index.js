@@ -16,23 +16,28 @@ function Slider() {
 
     useEffect(() => {
         const fetchPlaces = async () => {
-            const result = await api.get(`/places?category=${filteredPlaces}`)
+            const result = await api.get(`?category_like=${filteredPlaces ? filteredPlaces : ''}`)
 
-            if(result.status === 200) {
-                setPlaces(result.data)
+            console.log(result)
+
+            if (result.status === 200) {
+                setPlaces(result.data.places)
             }
         }
         fetchPlaces()
     }, [filteredPlaces])
 
     return(
-        <Swiper slidesPerView={places.length > 1 ? 1 : places.length} 
+        <Swiper
             breakpoints={{
-                767: {
-                    slidesPerView: places.length > 2 ? 2 : places.length
+                300: {
+                    slidesPerView: 1
                 },
-                1023: {
-                    slidesPerView: places.length > 4 ? 4 : places.length
+                767: {
+                    slidesPerView: 2 
+                },
+                1024: {
+                    slidesPerView: 4 
                 }
             }}
         
