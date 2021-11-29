@@ -15,7 +15,7 @@ const Header = () => {
                     / { city } - { state }
                 </span>
             </div>
-            <div className="header__logo--ebac">
+            <div className="header__logo--ebac header__logo--ebac">
                 <span className="header__span">
                     Apoio:
                 </span>
